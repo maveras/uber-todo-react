@@ -1,0 +1,43 @@
+{
+    "name": "uber-todo-app",
+    "version": "1.0.0",
+    "description": "todo app with steroids",
+    "main": "index.js",
+    "dependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.6",
+        "intersection-observer": "^0.7.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-icons": "^3.7.0",
+        "standard": "^13.1.0",
+        "styled-components": "^4.3.2",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "scripts": {
+        "now-start": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --open",
+        "build": "webpack",
+        "lint": "standard"
+    },
+    "standard": {
+        "ignore": []
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {}
+}
